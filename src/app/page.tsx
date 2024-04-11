@@ -12,7 +12,7 @@ export default function HomePage() {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-600">
       <div className="text-4xl mb-8 font-bold">
         <div className="border-4 border-black rounded-md p-4">
-          React Counter App
+          Basic React Counter
         </div>
       </div>
       <div className="border-2 border-black rounded-md p-2 mb-4">
