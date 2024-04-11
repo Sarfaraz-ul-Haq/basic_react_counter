@@ -1,5 +1,3 @@
-// Refresh.tsx
-
 import { RefreshCw } from "lucide-react";
 
 interface RefreshProps {
