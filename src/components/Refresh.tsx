@@ -1,10 +1,10 @@
 import { RefreshCw } from "lucide-react";
 
-interface RefreshProps {
+interface RefreshProp {
   reset: () => void;
 }
 
-export default function Refresh({ reset }: RefreshProps) {
+export default function Refresh({ reset }: RefreshProp) {
   return (
     <button
       type="button"
