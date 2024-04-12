@@ -13,14 +13,15 @@ export default function HomePage() {
       <div className="text-4xl mb-8 font-bold border-4 border-black rounded-md p-4">
         Basic React Counter
       </div>
-      <div className="border-2 border-black rounded-md p-2 mb-4">
-        <div className="text-2xl font-bold">{count}</div>
-      </div>
-      <div className="flex items-center mb-4">
-        <Decrement count={count} setCount={setCount} />
 
+      <div className="text-2xl font-bold border-2 border-black rounded-md p-2 mb-4">
+        {count}
+      </div>
+
+      <div className="flex items-center">
+        <Decrement count={count} setCount={setCount} />
         <div className="mx-2"></div>
-        <Refresh reset={() => setCount(0)} />
+        <Refresh setCount={setCount} />
         <div className="mx-2"></div>
         <Increment count={count} setCount={setCount} />
       </div>
